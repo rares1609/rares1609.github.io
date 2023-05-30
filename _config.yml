@@ -1,17 +1,1 @@
-theme: jekyll-theme-cayman
-
-plugins:
-  - jekyll-relative-links
-
-title: LAMAS 2023 Group 10
-description: Implementation of the Cheat! game using higher order knowledge
-
-collections:
-  nav:
-    output: true
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+remote_theme: "pages-themes/cayman@v0.5.3"
