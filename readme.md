@@ -1,6 +1,3 @@
-title: Home
-
-
 # Home
 
 Welcome to the LAMAS 2023 Group 10 project!
