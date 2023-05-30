@@ -1,1 +1,11 @@
+theme: jekyll-theme-minimal  # Replace <theme-name> with the name of the theme you are using
 
+plugins:
+  - jekyll-relative-links
+
+title: LAMAS 2023 Group 10
+description: Implementation of the Cheat! game using higher order knowledge
+
+collections:
+  nav:
+    output: true
