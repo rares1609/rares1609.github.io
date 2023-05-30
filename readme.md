@@ -7,3 +7,11 @@ This project is an implementation of the Cheat! game using higher order knowledg
 The game is played with three agents depicting 0, 1st and 2nd order order knowledge strategies. The cards involved in the game are Aces, Kings, Queens and Jacks.
 
 More information can be found in the Report section.
+
+# Report
+
+To be added soon
+
+# GitHub
+
+The implementation of the game can be found at https://github.com/rares1609/LAMAS_Cheat
