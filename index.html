@@ -1,23 +1,80 @@
-<div class="tabs">
-  <button class="tab" onclick="openTab(event, 'summary')">Project Summary</button>
-  <button class="tab" onclick="openTab(event, 'report')">Report</button>
-  <button class="tab" onclick="openTab(event, 'github')">GitHub</button>
-</div>
-
-<div id="summary" class="tab-content">
-  Welcome to the LAMAS 2023 Group 10 project!
-
-This project is an implementation of the Cheat! game using higher order knowledge.
-
-The game is played with three agents depicting 0, 1st, and 2nd order knowledge strategies. The cards involved in the game are Aces, Kings, Queens, and Jacks.
-
-More information can be found in the Report section.
-</div>
-
-<div id="report" class="tab-content">
-  To be added soon
-</div>
-
-<div id="github" class="tab-content">
-  The implementation of the game can be found at <a href="https://github.com/rares1609/LAMAS_Cheat">this GitHub repository</a>
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LAMAS 2023 Group 10</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+  <style>
+    .tabs {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .tab {
+      cursor: pointer;
+      padding: 10px 20px;
+      background-color: #ccc;
+      border: none;
+      border-radius: 4px;
+      margin-right: 10px;
+    }
+  
+    .tab:hover {
+      background-color: #ddd;
+    }
+  
+    .tab.active {
+      background-color: #fff;
+    }
+  
+    .tab-content {
+      display: none;
+    }
+  </style>
+  <script>
+    function openTab(evt, tabName) {
+      var tabContents = document.getElementsByClassName("tab-content");
+      for (var i = 0; i < tabContents.length; i++) {
+        tabContents[i].style.display = "none";
+      }
+  
+      var tabs = document.getElementsByClassName("tab");
+      for (var i = 0; i < tabs.length; i++) {
+        tabs[i].className = tabs[i].className.replace(" active", "");
+      }
+  
+      document.getElementById(tabName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+  
+    document.getElementById("summary").style.display = "block";
+    document.getElementsByClassName("tab")[0].className += " active";
+  </script>
+</head>
+<body>
+  <div class="tabs">
+    <button class="tab" onclick="openTab(event, 'summary')">Project Summary</button>
+    <button class="tab" onclick="openTab(event, 'report')">Report</button>
+    <button class="tab" onclick="openTab(event, 'github')">GitHub</button>
+  </div>
+  
+  <div id="summary" class="tab-content">
+    Welcome to the LAMAS 2023 Group 10 project!
+    <p>
+      This project is an implementation of the Cheat! game using higher order knowledge.
+      <br>
+      The game is played with three agents depicting 0, 1st, and 2nd order knowledge strategies. The cards involved in the game are Aces, Kings, Queens, and Jacks.
+      <br>
+      More information can be found in the Report section.
+    </p>
+  </div>
+  
+  <div id="report" class="tab-content">
+    To be added soon
+  </div>
+  
+  <div id="github" class="tab-content">
+    The implementation of the game can be found at <a href="https://github.com/rares1609/LAMAS_Cheat">this GitHub repository</a>
+  </div>
+</body>
+</html>
