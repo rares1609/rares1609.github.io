@@ -1,7 +1,7 @@
 # LAMAS 2023 Group 10 project
 Implementation of the Cheat! game using higher order knowledge.
 
-## Project Summary
+## Project Summary {#project-summary}
 
 Welcome to the LAMAS 2023 Group 10 project!
 
@@ -11,10 +11,10 @@ The game is played with three agents depicting 0, 1st and 2nd order order knowle
 
 More information can be found in the Report section.
 
-## Report
+## Report {#report}
 
 To be added soon
 
-## GitHub
+## GitHub {#github}
 
 The implementation of the game can be found at [this github repository](https://github.com/rares1609/LAMAS_Cheat).
