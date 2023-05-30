@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal  # Replace <theme-name> with the name of the theme you are using
+theme: jekyll-theme-cayman  # Replace <theme-name> with the name of the theme you are using
 
 plugins:
   - jekyll-relative-links
