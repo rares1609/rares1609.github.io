@@ -14,4 +14,4 @@ To be added soon
 
 # GitHub
 
-The implementation of the game can be found at https://github.com/rares1609/LAMAS_Cheat
+The implementation of the game can be found at [this github repository](https://github.com/rares1609/LAMAS_Cheat).
