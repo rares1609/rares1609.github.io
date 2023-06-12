@@ -56,9 +56,9 @@
   <div id="summary" class="tab-content">
     Welcome to the LAMAS 2023 Group 10 project!
     <p>
-      This project is an implementation of the Cheat! game using higher order knowledge.
+      This project is an implementation of the Cheat! game with the topic of lying in public announcements.
       <br>
-      The game is played with three agents depicting 0, 1st, and 2nd order knowledge strategies. The cards involved in the game are Aces, Kings, Queens, and Jacks.
+      The game is played with three agents, involving a human player, a trusting agent and a distrusting agent. The cards involved in the game are Aces, Kings, and Queens.
       <br>
       More information can be found in the Report section.
     </p>
