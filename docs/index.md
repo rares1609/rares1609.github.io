@@ -1,6 +1,5 @@
   <title>LAMAS 2023 Group 10</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="custom.css">
   <script src="script.js"></script>
   <style>
     .tabs {
