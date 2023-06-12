@@ -65,7 +65,7 @@
   </div>
   
 <div id="report" class="tab-content">
-  <object data="Set F - s3974537.pdf" type="application/pdf" width="800px" height="600px">
+  <object data="Set F - s3974537.pdf" type="application/pdf" width="1500px" height="600px">
     <p>Unable to display PDF. <a href="Set F - s3974537.pdf">Download it here</a>.</p>
   </object>
 </div>
