@@ -58,7 +58,7 @@
     <p>
       This project is an implementation of the Cheat! game with the topic of lying in public announcements.
       <br>
-      The game is played with three agents, involving a human player, a trusting agent and a distrusting agent. The cards involved in the game are Aces, Kings, and Queens.
+      The game is played with three agents, displaying a "Trusting" strategy, a "Distrusting" strategy and a "Hybrid" strategy, which is a mix of the first two. The card ranks involved in the game are Aces and Queens, each rank having three cards, with two cards per agent. There is also the option that the user can play against two of the three mentioned strategies (any possible combination).
       <br>
       More information can be found in the Report section.
     </p>
